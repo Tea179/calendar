@@ -1,17 +1,21 @@
-// smartphone
+body{
+    font-family: sans-serif;
+}
+
+/* smartphone */
 .top{
 border: solid 5px;
 border-color: black;
 border-radius: 5px;
-font-size: medium;
+margin-top: 5%;
+margin-left: 5%;
+margin-right: 5%;
 }
 
-#top_left{
-text-align: left;
-}
+.top_day{
+    text-align: left;
+    font-size: medium;
 
-#top_right{
-text-align: right;
 }
 
 .mid{
@@ -23,18 +27,10 @@ text-align: right;
 }
 
 
-// PC
+/* PC */
 @media (min-width: 768px) {
 .top{
 
-}
-
-#top_left{
-text-align: left;
-}
-
-#top_right{
-text-align: right;
 }
 
 .mid{
