@@ -1,0 +1,47 @@
+// smartphone
+.top{
+border: solid 5px;
+border-color: black;
+border-radius: 5px;
+font-size: medium;
+}
+
+#top_left{
+text-align: left;
+}
+
+#top_right{
+text-align: right;
+}
+
+.mid{
+
+}
+
+.bottom{
+
+}
+
+
+// PC
+@media (min-width: 768px) {
+.top{
+
+}
+
+#top_left{
+text-align: left;
+}
+
+#top_right{
+text-align: right;
+}
+
+.mid{
+
+}
+
+.bottom{
+
+}
+}
